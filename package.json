@@ -3,7 +3,8 @@
 	"name": "gh-issue-cli",
 	"version": "1.0.0",
 	"description": "Create an github issue from your terminal 🔫",
-	"exports": "lib/index.js",
+	"exports": "./lib/index.js",
+	"bin": "./lib/index.js",
 	"author": "luctst",
 	"license": "MIT",
 	"files": [
@@ -45,5 +46,8 @@
 		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-watch": "^8.0.0",
 		"prettier": "^2.7.1"
+	},
+	"dependencies": {
+		"chalk": "^5.0.1"
 	}
 }
