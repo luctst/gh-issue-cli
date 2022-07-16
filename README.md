@@ -26,33 +26,45 @@
 * [Features](##features)
 * [Install](##install)
 * [Usage](##usage)
-* [Exemples](##exemples)
-* [Documentation](##documentation)
-* [API](##Api)
 * [Contributing](##contributing)
 * [Maintainers](##maintainers)
 
 ## Features ✨
-* Feature 1.
-* Feature 2.
-* ...
+* Create issue for Github repository.
+* Easy-to-use interface.
 
 ## Install 🐙
-Explain to your users how they can install your product :)
+```bash
+npm i -g gh-issue-cli
+```
 
 ## Usage 💡
-In this section you can write some popular examples about how you can interact with the project. It's advisable to write some code here.
-
-## Exemples 🖍
-```
-Show some code
+NPX:
+```bash
+npx gh-issue-cli [commands] <options>
 ```
 
-## Documentation 📄
-If your project has some documentation you can link anything here.
+```
+$ gh-issue-cli react vue
 
-## API 👩‍💻
-You have a small project or you'll like to share the API of your project ? This is where it's happen.
+  Usage
+    $ gh-issue-cli [commands] <options>
+  
+  Commands
+    config,           Create actions on config file, if no options is declared read the config file.
+    [repository-name] Enter one or many repository where you have access to create issues on it.
+
+  Options
+    --read             Available with the config command, read and return the configuration file.
+    --update           Available with config command, update the config file with new data.
+
+  Examples
+    $ gh-issue-cli config
+    $ gh-issue-cli config --update
+    $ gh-issue-cli --read
+    $ gh-issue-cli node meow
+    $ gh-issue-cli luctst-cli
+```
 
 ## Contributing 🍰
 Please make sure to read the [Contributing Guide]() before making a pull request.
