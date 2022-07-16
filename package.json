@@ -8,7 +8,7 @@
 	"author": "luctst",
 	"license": "MIT",
 	"files": [
-		"lib/**/*"
+		"./lib/**/*"
 	],
 	"repository": {
 		"type": "git",
@@ -27,7 +27,21 @@
 	"ava": {
 		"cache": true
 	},
-	"keywords": [],
+	"keywords": [
+		"cli",
+		"npm",
+		"cli-tool",
+		"git",
+		"issue",
+		"input",
+		"cmd",
+		"console",
+		"helper",
+		"argv",
+		"bin",
+		"util",
+		"flags"
+	],
 	"scripts": {
 		"test": "ava --verbose ./test/*.js",
 		"test:watch": "ava --watch --verbose --fail-fast ./test/*.js",
