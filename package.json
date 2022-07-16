@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"name": "gh-issue-cli",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Create an github issue from your terminal 🔫",
 	"exports": "./lib/index.js",
 	"bin": "./lib/index.js",
