@@ -1,6 +1,8 @@
 {
   "CONFIG_FILE": ".gh-issueclirc",
+  "TOKEN_STARTS_WITH": "ghp_",
   "CONFIG_SCHEMA": {
-    "gh_token": null
+    "gh_token": null,
+    "gh_username": null
   }
 }

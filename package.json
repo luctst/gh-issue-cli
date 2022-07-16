@@ -1,14 +1,14 @@
 {
 	"type": "module",
 	"name": "gh-issue-cli",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Create an github issue from your terminal 🔫",
 	"exports": "./lib/index.js",
 	"bin": "./lib/index.js",
 	"author": "luctst",
 	"license": "MIT",
 	"files": [
-		"lib/**/*"
+		"./lib/**/*"
 	],
 	"repository": {
 		"type": "git",
@@ -27,7 +27,21 @@
 	"ava": {
 		"cache": true
 	},
-	"keywords": [],
+	"keywords": [
+		"cli",
+		"npm",
+		"cli-tool",
+		"git",
+		"issue",
+		"input",
+		"cmd",
+		"console",
+		"helper",
+		"argv",
+		"bin",
+		"util",
+		"flags"
+	],
 	"scripts": {
 		"test": "ava --verbose ./test/*.js",
 		"test:watch": "ava --watch --verbose --fail-fast ./test/*.js",
@@ -48,7 +62,9 @@
 		"prettier": "^2.7.1"
 	},
 	"dependencies": {
+		"@inquirer/checkbox": "^0.0.21-alpha.0",
 		"@inquirer/input": "^0.0.21-alpha.0",
+		"argv-user-input": "^1.3.2",
 		"chalk": "^5.0.1",
 		"latest-version": "^7.0.0"
 	}

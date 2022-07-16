@@ -2,6 +2,18 @@
 	"parserOptions": {
 		"ecmaVersion": 2020
 	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [
+					".js",
+					".jsx",
+					".ts",
+					".tsx"
+				]
+			}
+		}
+	},
 	"extends": [
 		"airbnb-base",
 		"prettier"
@@ -41,6 +53,12 @@
 		"max-nested-callbacks": ["warn", 2],
 		"max-depth": ["warn", 3],
 		"no-underscore-dangle": 0,
-		"import/extensions": 0
+		"import/extensions": 0,
+		"import/no-unresolved": [
+			0,
+			{
+				"caseSensitive": false
+			}
+		]
 	}
 }
